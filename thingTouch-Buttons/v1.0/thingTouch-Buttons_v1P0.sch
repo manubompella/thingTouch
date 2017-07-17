@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:touchpad_single
+LIBS:ttp224n-bsb
 LIBS:thingTouch-Buttons_v1P0-cache
 EELAYER 25 0
 EELAYER END
@@ -37,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title ""
 Date "2017-07-17"
-Rev ""
+Rev "v1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -45,102 +46,503 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L touchPad W?
+L touchPad W1
 U 1 1 596CD996
-P 2250 2475
-F 0 "W?" H 2250 2675 60  0000 C CNN
-F 1 "touchPad" H 2250 2275 60  0000 C CNN
-F 2 "" H 2250 2475 60  0001 C CNN
-F 3 "" H 2250 2475 60  0001 C CNN
-	1    2250 2475
+P 975 2450
+F 0 "W1" H 975 2650 60  0000 C CNN
+F 1 "touchPad" H 975 2250 60  0000 C CNN
+F 2 "" H 975 2450 60  0001 C CNN
+F 3 "" H 975 2450 60  0001 C CNN
+	1    975  2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L touchPad W?
+L touchPad W2
 U 1 1 596CD9C3
-P 2250 3075
-F 0 "W?" H 2250 3275 60  0000 C CNN
-F 1 "touchPad" H 2250 2875 60  0000 C CNN
-F 2 "" H 2250 3075 60  0001 C CNN
-F 3 "" H 2250 3075 60  0001 C CNN
-	1    2250 3075
+P 975 3050
+F 0 "W2" H 975 3250 60  0000 C CNN
+F 1 "touchPad" H 975 2850 60  0000 C CNN
+F 2 "" H 975 3050 60  0001 C CNN
+F 3 "" H 975 3050 60  0001 C CNN
+	1    975  3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L touchPad W?
+L touchPad W3
 U 1 1 596CDA11
-P 2250 3750
-F 0 "W?" H 2250 3950 60  0000 C CNN
-F 1 "touchPad" H 2250 3550 60  0000 C CNN
-F 2 "" H 2250 3750 60  0001 C CNN
-F 3 "" H 2250 3750 60  0001 C CNN
-	1    2250 3750
+P 975 3725
+F 0 "W3" H 975 3925 60  0000 C CNN
+F 1 "touchPad" H 975 3525 60  0000 C CNN
+F 2 "" H 975 3725 60  0001 C CNN
+F 3 "" H 975 3725 60  0001 C CNN
+	1    975  3725
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C1
 U 1 1 596CDAC2
-P 3150 2600
-F 0 "C?" H 3160 2670 50  0000 L CNN
-F 1 "30pF" H 3160 2520 50  0000 L CNN
-F 2 "" H 3150 2600 50  0000 C CNN
-F 3 "" H 3150 2600 50  0000 C CNN
-	1    3150 2600
+P 1875 2575
+F 0 "C1" H 1885 2645 50  0000 L CNN
+F 1 "30pF" H 1885 2495 50  0000 L CNN
+F 2 "" H 1875 2575 50  0000 C CNN
+F 3 "" H 1875 2575 50  0000 C CNN
+	1    1875 2575
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR1
 U 1 1 596CDD3A
-P 2900 4125
-F 0 "#PWR?" H 2900 4175 30  0001 C CNN
-F 1 "GND" H 2900 4000 30  0001 C CNN
-F 2 "" H 2900 4125 60  0000 C CNN
-F 3 "" H 2900 4125 60  0000 C CNN
-	1    2900 4125
+P 1625 4100
+F 0 "#PWR1" H 1625 4150 30  0001 C CNN
+F 1 "GND" H 1625 3975 30  0001 C CNN
+F 2 "" H 1625 4100 60  0000 C CNN
+F 3 "" H 1625 4100 60  0000 C CNN
+	1    1625 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 2500 3150 2475
+	1875 2475 1875 2450
 Wire Wire Line
-	3150 2475 2600 2475
+	1325 2450 2875 2450
 Wire Wire Line
-	2600 3075 3150 3075
+	1325 3050 2675 3050
 Wire Wire Line
-	3150 3075 3150 3100
+	1875 3050 1875 3075
 Wire Wire Line
-	2600 3750 3150 3750
+	1325 3725 2475 3725
 Wire Wire Line
-	3150 3750 3150 3775
+	1875 3725 1875 3750
 Wire Wire Line
-	2900 2700 2900 4125
+	1625 2675 1625 4100
 Wire Wire Line
-	2900 3975 3150 3975
+	1625 3950 1875 3950
 Wire Wire Line
-	2900 3300 3150 3300
-Connection ~ 2900 3975
+	1625 3275 1875 3275
+Connection ~ 1625 3950
 Wire Wire Line
-	2900 2700 3150 2700
-Connection ~ 2900 3300
+	1625 2675 1875 2675
+Connection ~ 1625 3275
 $Comp
-L C_Small C?
+L C_Small C2
 U 1 1 596CE5E0
-P 3150 3200
-F 0 "C?" H 3160 3270 50  0000 L CNN
-F 1 "30pF" H 3160 3120 50  0000 L CNN
-F 2 "" H 3150 3200 50  0000 C CNN
-F 3 "" H 3150 3200 50  0000 C CNN
-	1    3150 3200
+P 1875 3175
+F 0 "C2" H 1885 3245 50  0000 L CNN
+F 1 "30pF" H 1885 3095 50  0000 L CNN
+F 2 "" H 1875 3175 50  0000 C CNN
+F 3 "" H 1875 3175 50  0000 C CNN
+	1    1875 3175
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C3
 U 1 1 596CE611
-P 3150 3875
-F 0 "C?" H 3160 3945 50  0000 L CNN
-F 1 "30pF" H 3160 3795 50  0000 L CNN
-F 2 "" H 3150 3875 50  0000 C CNN
-F 3 "" H 3150 3875 50  0000 C CNN
-	1    3150 3875
+P 1875 3850
+F 0 "C3" H 1885 3920 50  0000 L CNN
+F 1 "30pF" H 1885 3770 50  0000 L CNN
+F 2 "" H 1875 3850 50  0000 C CNN
+F 3 "" H 1875 3850 50  0000 C CNN
+	1    1875 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L TTP224N-BSB U1
+U 1 1 596CEBA6
+P 3975 4350
+F 0 "U1" H 3975 4350 60  0000 C CNN
+F 1 "TTP224N-BSB" H 3975 4200 60  0000 C CNN
+F 2 "" H 3975 4350 60  0001 C CNN
+F 3 "" H 3975 4350 60  0001 C CNN
+	1    3975 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 2450 2875 4000
+Wire Wire Line
+	2875 4000 3175 4000
+Connection ~ 1875 2450
+Wire Wire Line
+	3175 4100 2675 4100
+Wire Wire Line
+	2675 4100 2675 3050
+Connection ~ 1875 3050
+Wire Wire Line
+	3175 4200 2475 4200
+Wire Wire Line
+	2475 4200 2475 3725
+Connection ~ 1875 3725
+NoConn ~ 3175 4300
+$Comp
+L CONN_01X04 P1
+U 1 1 596D0BC9
+P 2275 1775
+F 0 "P1" H 2275 2025 50  0000 C CNN
+F 1 "DIRECT_CONN" V 2375 1775 50  0000 C CNN
+F 2 "" H 2275 1775 50  0000 C CNN
+F 3 "" H 2275 1775 50  0000 C CNN
+	1    2275 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1625 2075 1625
+Wire Wire Line
+	2075 1825 1550 1825
+Wire Wire Line
+	1550 1825 1550 3725
+Connection ~ 1550 3725
+Wire Wire Line
+	1475 1725 2075 1725
+Connection ~ 1475 3050
+Wire Wire Line
+	1475 3050 1475 1725
+Wire Wire Line
+	1400 1625 1400 2450
+Connection ~ 1400 2450
+$Comp
+L GND #PWR2
+U 1 1 596D1262
+P 1950 1975
+F 0 "#PWR2" H 1950 2025 30  0001 C CNN
+F 1 "GND" H 1950 1850 30  0001 C CNN
+F 2 "" H 1950 1975 60  0000 C CNN
+F 3 "" H 1950 1975 60  0000 C CNN
+	1    1950 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 1925 1950 1925
+Wire Wire Line
+	1950 1925 1950 1975
+$Comp
+L VDD #PWR3
+U 1 1 596D17E6
+P 2575 4450
+F 0 "#PWR3" H 2575 4675 30  0001 C CNN
+F 1 "VDD" V 2525 4450 30  0001 C CNN
+F 2 "" H 2475 4200 60  0001 C CNN
+F 3 "" H 2575 4300 60  0001 C CNN
+	1    2575 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 596D1AB1
+P 3000 4400
+F 0 "R1" V 2925 4375 50  0000 L CNN
+F 1 "0E" V 3000 4350 50  0000 L CNN
+F 2 "" H 3000 4400 50  0000 C CNN
+F 3 "" H 3000 4400 50  0000 C CNN
+	1    3000 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 596D1B71
+P 3000 4600
+F 0 "R2" V 2950 4675 50  0000 L CNN
+F 1 "0E" V 3000 4550 50  0000 L CNN
+F 2 "" H 3000 4600 50  0000 C CNN
+F 3 "" H 3000 4600 50  0000 C CNN
+	1    3000 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 596D1BAF
+P 3000 4700
+F 0 "R3" V 3050 4775 50  0000 L CNN
+F 1 "0E" V 3000 4650 50  0000 L CNN
+F 2 "" H 3000 4700 50  0000 C CNN
+F 3 "" H 3000 4700 50  0000 C CNN
+	1    3000 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3175 4400 3100 4400
+Wire Wire Line
+	2300 4500 3175 4500
+Wire Wire Line
+	2575 4450 2575 4550
+Wire Wire Line
+	3175 4600 3100 4600
+Wire Wire Line
+	3175 4700 3100 4700
+Wire Wire Line
+	2900 4400 2825 4400
+Wire Wire Line
+	2825 4400 2825 4700
+Connection ~ 2825 4500
+Wire Wire Line
+	2825 4600 2900 4600
+Wire Wire Line
+	2825 4700 2900 4700
+Connection ~ 2825 4600
+$Comp
+L C C5
+U 1 1 596D2192
+P 2575 4700
+F 0 "C5" H 2600 4800 50  0000 L CNN
+F 1 "10uF" H 2600 4600 50  0000 L CNN
+F 2 "" H 2613 4550 50  0000 C CNN
+F 3 "" H 2575 4700 50  0000 C CNN
+	1    2575 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 596D21FF
+P 2300 4700
+F 0 "C4" H 2325 4800 50  0000 L CNN
+F 1 "100nF" H 2025 4600 50  0000 L CNN
+F 2 "" H 2338 4550 50  0000 C CNN
+F 3 "" H 2300 4700 50  0000 C CNN
+	1    2300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 596D22C4
+P 2575 4975
+F 0 "#PWR4" H 2575 5025 30  0001 C CNN
+F 1 "GND" H 2575 4850 30  0001 C CNN
+F 2 "" H 2575 4975 60  0000 C CNN
+F 3 "" H 2575 4975 60  0000 C CNN
+	1    2575 4975
+	1    0    0    -1  
+$EndComp
+Connection ~ 2575 4500
+Wire Wire Line
+	2300 4500 2300 4550
+Wire Wire Line
+	2575 4975 2575 4850
+Wire Wire Line
+	5425 4925 2300 4925
+Connection ~ 2575 4925
+Wire Wire Line
+	2300 4925 2300 4850
+$Comp
+L R_Small R5
+U 1 1 596D330B
+P 5075 4500
+F 0 "R5" V 5125 4575 50  0000 L CNN
+F 1 "0E" V 5075 4450 50  0000 L CNN
+F 2 "" H 5075 4500 50  0000 C CNN
+F 3 "" H 5075 4500 50  0000 C CNN
+	1    5075 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R6
+U 1 1 596D3362
+P 5075 4700
+F 0 "R6" V 5125 4775 50  0000 L CNN
+F 1 "0E" V 5075 4650 50  0000 L CNN
+F 2 "" H 5075 4700 50  0000 C CNN
+F 3 "" H 5075 4700 50  0000 C CNN
+	1    5075 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 596D33B3
+P 5075 4400
+F 0 "R4" V 5125 4475 50  0000 L CNN
+F 1 "0E" V 5075 4350 50  0000 L CNN
+F 2 "" H 5075 4400 50  0000 C CNN
+F 3 "" H 5075 4400 50  0000 C CNN
+	1    5075 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4825 4400 4975 4400
+Wire Wire Line
+	4975 4500 4825 4500
+Wire Wire Line
+	4825 4700 4975 4700
+Wire Wire Line
+	4825 4600 5425 4600
+Wire Wire Line
+	5425 4400 5425 4925
+Wire Wire Line
+	5175 4700 5425 4700
+Connection ~ 5425 4700
+Wire Wire Line
+	5175 4500 5425 4500
+Connection ~ 5425 4600
+Wire Wire Line
+	5175 4400 5425 4400
+Connection ~ 5425 4500
+$Comp
+L GND #PWR6
+U 1 1 596D455F
+P 4900 2850
+F 0 "#PWR6" H 4900 2900 30  0001 C CNN
+F 1 "GND" H 4900 2725 30  0001 C CNN
+F 2 "" H 4900 2850 60  0000 C CNN
+F 3 "" H 4900 2850 60  0000 C CNN
+	1    4900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2850 5225 2850
+Wire Wire Line
+	5225 2850 5225 2975
+$Comp
+L VDD #PWR5
+U 1 1 596D4D6D
+P 4725 2950
+F 0 "#PWR5" H 4725 3175 30  0001 C CNN
+F 1 "VDD" V 4675 2950 30  0001 C CNN
+F 2 "" H 4625 2700 60  0001 C CNN
+F 3 "" H 4725 2800 60  0001 C CNN
+	1    4725 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 2950 4725 3075
+Wire Wire Line
+	4725 3075 5225 3075
+Wire Wire Line
+	4825 4000 5350 4000
+Wire Wire Line
+	4925 4000 4925 3175
+Wire Wire Line
+	4925 3175 5225 3175
+Wire Wire Line
+	4825 4100 5500 4100
+Wire Wire Line
+	4825 4200 5125 4200
+Wire Wire Line
+	5125 3375 5125 4300
+Wire Wire Line
+	5125 3375 5225 3375
+Wire Wire Line
+	5025 4100 5025 3275
+Wire Wire Line
+	5025 3275 5225 3275
+NoConn ~ 4825 4300
+$Comp
+L CONN_01X05 P2
+U 1 1 596D66CB
+P 5425 3175
+F 0 "P2" H 5425 3475 50  0000 C CNN
+F 1 "TOUCH_CONN" V 5525 3175 50  0000 C CNN
+F 2 "" H 5425 3175 50  0000 C CNN
+F 3 "" H 5425 3175 50  0000 C CNN
+	1    5425 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Led_Small D2
+U 1 1 596D6A9C
+P 5725 4000
+F 0 "D2" H 5675 4125 50  0000 L CNN
+F 1 "LED1" H 5800 3950 50  0000 L CNN
+F 2 "" V 5725 4000 50  0000 C CNN
+F 3 "" V 5725 4000 50  0000 C CNN
+	1    5725 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D1
+U 1 1 596D6B13
+P 5725 3750
+F 0 "D1" H 5675 3875 50  0000 L CNN
+F 1 "LED0" H 5800 3700 50  0000 L CNN
+F 2 "" V 5725 3750 50  0000 C CNN
+F 3 "" V 5725 3750 50  0000 C CNN
+	1    5725 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 596D6B90
+P 5725 4300
+F 0 "D3" H 5675 4425 50  0000 L CNN
+F 1 "LED2" H 5800 4250 50  0000 L CNN
+F 2 "" V 5725 4300 50  0000 C CNN
+F 3 "" V 5725 4300 50  0000 C CNN
+	1    5725 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5125 4300 5625 4300
+Connection ~ 5125 4200
+Wire Wire Line
+	5500 4100 5500 4000
+Wire Wire Line
+	5500 4000 5625 4000
+Connection ~ 5025 4100
+Wire Wire Line
+	5350 4000 5350 3750
+Wire Wire Line
+	5350 3750 5625 3750
+Connection ~ 4925 4000
+$Comp
+L R_Small R7
+U 1 1 596D7155
+P 6125 3750
+F 0 "R7" H 6155 3770 50  0000 L CNN
+F 1 "1K" H 6155 3710 50  0000 L CNN
+F 2 "" H 6125 3750 50  0000 C CNN
+F 3 "" H 6125 3750 50  0000 C CNN
+	1    6125 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R8
+U 1 1 596D737D
+P 6125 4000
+F 0 "R8" H 6155 4020 50  0000 L CNN
+F 1 "1K" H 6155 3960 50  0000 L CNN
+F 2 "" H 6125 4000 50  0000 C CNN
+F 3 "" H 6125 4000 50  0000 C CNN
+	1    6125 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R9
+U 1 1 596D744E
+P 6125 4300
+F 0 "R9" H 6155 4320 50  0000 L CNN
+F 1 "1K" H 6155 4260 50  0000 L CNN
+F 2 "" H 6125 4300 50  0000 C CNN
+F 3 "" H 6125 4300 50  0000 C CNN
+	1    6125 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5825 3750 6025 3750
+Wire Wire Line
+	6025 4000 5825 4000
+Wire Wire Line
+	5825 4300 6025 4300
+$Comp
+L GND #PWR7
+U 1 1 596D82EB
+P 6475 4375
+F 0 "#PWR7" H 6475 4425 30  0001 C CNN
+F 1 "GND" H 6475 4250 30  0001 C CNN
+F 2 "" H 6475 4375 60  0000 C CNN
+F 3 "" H 6475 4375 60  0000 C CNN
+	1    6475 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6475 3750 6475 4375
+Wire Wire Line
+	6475 4300 6225 4300
+Wire Wire Line
+	6475 4000 6225 4000
+Connection ~ 6475 4300
+Wire Wire Line
+	6475 3750 6225 3750
+Connection ~ 6475 4000
+Text Notes 7750 2450 0    60   ~ 0
+Output mode:\n\nTOG  OD  AHLB  --> Pad TPQ0TP3 option features\n\nopen open open --> Direct mode, CMOS active high output\n\nopen open VDD  --> Direct mode, CMOS active low output\n\nopen VSS  open  --> Direct mode, Open drain active high output\n\nopen VSS  VDD   --> Direct mode, Open drain active low output\n\nVDD  open open  --> Toggle mode, COMS output, Power on state=0\n\nVDD  open VDD   --> Toggle mode, COMS output, Power on state=1\n\nVDD VSS open   --> Toggle mode, Power on state high-Z, Active high\n\nVDD VSS VDD    --> Toggle mode, Power on state high-Z, Active low
+Text Notes 7725 3350 0    60   ~ 0
+Key operation mode:\n\nSM Option features\n\nopen Multi-key mode\n\nVSS Single key mode
+Text Notes 7750 4325 0    60   ~ 0
+Maximum key on duration time:\n\nMOT0 Option features\n\nVSS Maximum on time 16sec\n\nopen Infinite(Disable maximum on time)
+Text Notes 7750 5325 0    60   ~ 0
+Fast and Low power mode:\n\nLPMB Option features\n\nVDD Fast mode\n\nopen Low Power mode
 $EndSCHEMATC

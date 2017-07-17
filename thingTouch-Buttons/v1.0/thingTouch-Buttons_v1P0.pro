@@ -1,4 +1,4 @@
-update=07/17/17 21:03:06
+update=07/17/17 22:12:18
 version=1
 last_client=kicad
 [cvpcb]
@@ -69,3 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=touchpad_single
+LibName31=ttp224n-bsb
