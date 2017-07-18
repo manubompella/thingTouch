@@ -1,11 +1,9 @@
-update=07/18/17 01:04:57
+update=07/18/17 18:17:58
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Worksheet.kicad_wks
@@ -70,3 +68,5 @@ LibName28=contrib
 LibName29=valves
 LibName30=touchpad_single
 LibName31=ttp224n-bsb
+[general]
+version=1
