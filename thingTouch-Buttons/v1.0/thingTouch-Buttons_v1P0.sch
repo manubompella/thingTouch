@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:touchpad_single
-LIBS:ttp224n-bsb
 LIBS:thingTouch-Buttons_v1P0-cache
 EELAYER 25 0
 EELAYER END
@@ -411,7 +409,6 @@ Wire Wire Line
 Wire Wire Line
 	2475 4200 2475 3725
 Connection ~ 1875 3725
-Connection ~ 1550 3725
 Connection ~ 1475 3050
 Wire Wire Line
 	3175 4400 3100 4400
@@ -531,7 +528,7 @@ U 1 1 596DD16E
 P 2275 1675
 F 0 "P1" H 2275 2025 50  0000 C CNN
 F 1 "DIRECT_CONN" V 2375 1675 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 2275 1675 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_S6B-PH-SM4-TB_06x2.00mm_Angled" H 2275 1675 50  0001 C CNN
 F 3 "" H 2275 1675 50  0000 C CNN
 	1    2275 1675
 	1    0    0    -1  
