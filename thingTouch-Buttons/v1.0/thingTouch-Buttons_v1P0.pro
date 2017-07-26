@@ -4,8 +4,6 @@ last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Worksheet.kicad_wks

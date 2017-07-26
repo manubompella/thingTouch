@@ -281,7 +281,7 @@
     (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.0mm_Pad (at 0 4.5) (layer F.Fab)
+    (fp_text value MountingHole_2.0mm_Pad (at -7.2 9.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
@@ -296,6 +296,7 @@
     (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+
     (fp_text value MountingHole_2.0mm_Pad (at -0.7 -6.6) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -311,7 +312,7 @@
     (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2.0mm_Pad (at 0 4.5) (layer F.Fab)
+    (fp_text value MountingHole_2.0mm_Pad (at 4.95 2.45) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.5 0) (layer Cmts.User) (width 0.15))
@@ -1395,6 +1396,7 @@
     (fp_text reference REF** (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+
     (fp_text value MountingHole_2.0mm_Pad (at 5.2 4.9) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
