@@ -23,6 +23,7 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # CONN_01X02
 #
 DEF CONN_01X02 P 0 40 Y N 1 F N
@@ -45,6 +46,8 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> refs/remotes/automote/touchButtonx3
 # CONN_01X05
 #
 DEF CONN_01X05 P 0 40 Y N 1 F N
@@ -159,6 +162,7 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # MMBT3904
 #
 DEF MMBT3904 Q 0 0 Y Y 1 F N
@@ -182,6 +186,8 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> refs/remotes/automote/touchButtonx3
 # R_Small
 #
 DEF R_Small R 0 10 N N 1 F N
@@ -200,19 +206,32 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+<<<<<<< HEAD
 # TTP224N-BSB
 #
 DEF TTP224N-BSB U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
 F1 "TTP224N-BSB" 0 -150 60 H V C CNN
+=======
+# TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0
+#
+DEF TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0 U 0 40 Y Y 1 F N
+F0 "U" 0 0 60 H V C CNN
+F1 "TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0" 0 -150 60 H V C CNN
+>>>>>>> refs/remotes/automote/touchButtonx3
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
 S -600 500 650 -500 0 1 0 N
 X TP0 1 -800 350 200 R 50 50 1 1 I
 X TP1 2 -800 250 200 R 50 50 1 1 I
+<<<<<<< HEAD
 X TP3 3 -800 150 200 R 50 50 1 1 I
 X TP4 4 -800 50 200 R 50 50 1 1 I
+=======
+X TP2 3 -800 150 200 R 50 50 1 1 I
+X TP3 4 -800 50 200 R 50 50 1 1 I
+>>>>>>> refs/remotes/automote/touchButtonx3
 X AHLB 5 -800 -50 200 R 50 50 1 1 B
 X VDD 6 -800 -150 200 R 50 50 1 1 W
 X TOG 7 -800 -250 200 R 50 50 1 1 I
