@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:thingTouch-Buttons_v1P0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -502,7 +503,7 @@ Wire Wire Line
 	2075 1525 1975 1525
 Connection ~ 1975 1725
 $Comp
-L TTP224N-BSB U1
+L TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0 U1
 U 1 1 596F6FAA
 P 3975 4350
 F 0 "U1" H 3975 4350 60  0000 C CNN
