@@ -1,11 +1,9 @@
-update=7/19/2017 7:07:37 PM
+update=07/26/17 19:27:20
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=P:/PCB Design/kicad-library/template/thingTronics/Pcb_Worksheet.kicad_wks
@@ -37,7 +35,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../../../kicad-libraries/library
+LibDir=../../../kicad-library/library
 [eeschema/libraries]
 LibName1=thingTouch-Buttons_v1P0-rescue
 LibName2=power
@@ -69,5 +67,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=I:/GitHub/kicad-libraries/library/touchpad_single
-LibName32=ttp224n-bsb
+LibName31=ttp224n-bsb
+LibName32=touchpad_single
