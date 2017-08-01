@@ -18,15 +18,11 @@ $ENDFPLIST
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 40 40 1 1 P
-X ~ 2 0 -150 110 U 40 40 1 1 P
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
 # CONN_01X02
 #
 DEF CONN_01X02 P 0 40 Y N 1 F N
@@ -46,39 +42,6 @@ S -50 55 10 45 0 1 0 N
 S -50 100 50 -100 0 1 0 N
 X P1 1 -200 50 150 R 50 50 1 1 P
 X P2 2 -200 -50 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
-# CONN_01X05
-#
-DEF CONN_01X05 P 0 40 Y N 1 F N
-F0 "P" 0 300 50 H V C CNN
-F1 "CONN_01X05" 100 0 50 V V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- Pin_Header_Straight_1X05
- Pin_Header_Angled_1X05
- Socket_Strip_Straight_1X05
- Socket_Strip_Angled_1X05
-$ENDFPLIST
-DRAW
-S -50 -195 10 -205 0 1 0 N
-S -50 -95 10 -105 0 1 0 N
-S -50 5 10 -5 0 1 0 N
-S -50 105 10 95 0 1 0 N
-S -50 205 10 195 0 1 0 N
-S -50 250 50 -250 0 1 0 N
-X P1 1 -200 200 150 R 50 50 1 1 P
-X P2 2 -200 100 150 R 50 50 1 1 P
-X P3 3 -200 0 150 R 50 50 1 1 P
-X P4 4 -200 -100 150 R 50 50 1 1 P
-X P5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -129,18 +92,18 @@ $ENDFPLIST
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 75 D 40 40 1 1 P
-X ~ 2 0 -100 80 U 40 40 1 1 P
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
 # GND
 #
-DEF ~GND #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 50 30 H I C CNN
-F1 "GND" 0 -125 30 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
@@ -168,10 +131,6 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
 # MMBT3904
 #
 DEF MMBT3904 Q 0 0 Y Y 1 F N
@@ -195,11 +154,6 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
 # R_Small
 #
 DEF R_Small R 0 10 N N 1 F N
@@ -213,48 +167,24 @@ $FPLIST
 $ENDFPLIST
 DRAW
 S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 40 40 1 1 P
-X ~ 2 0 -100 30 U 40 40 1 1 P
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-<<<<<<< HEAD
-<<<<<<< HEAD
 # TTP224N-BSB
 #
 DEF TTP224N-BSB U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
 F1 "TTP224N-BSB" 0 -150 60 H V C CNN
-=======
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
-# TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0
-#
-DEF TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0 U 0 40 Y Y 1 F N
-F0 "U" 0 0 60 H V C CNN
-F1 "TTP224N-BSB-RESCUE-thingTouch-Buttons_v1P0" 0 -150 60 H V C CNN
-<<<<<<< HEAD
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
 S -600 500 650 -500 0 1 0 N
 X TP0 1 -800 350 200 R 50 50 1 1 I
 X TP1 2 -800 250 200 R 50 50 1 1 I
-<<<<<<< HEAD
-<<<<<<< HEAD
-X TP3 3 -800 150 200 R 50 50 1 1 I
-X TP4 4 -800 50 200 R 50 50 1 1 I
-=======
 X TP2 3 -800 150 200 R 50 50 1 1 I
 X TP3 4 -800 50 200 R 50 50 1 1 I
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
-X TP2 3 -800 150 200 R 50 50 1 1 I
-X TP3 4 -800 50 200 R 50 50 1 1 I
->>>>>>> refs/remotes/automote/touchButtonx3
 X AHLB 5 -800 -50 200 R 50 50 1 1 B
 X VDD 6 -800 -150 200 R 50 50 1 1 W
 X TOG 7 -800 -250 200 R 50 50 1 1 I
@@ -272,13 +202,12 @@ ENDDEF
 #
 # VDD
 #
-DEF ~VDD #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 225 30 H I C CNN
-F1 "VDD" -50 0 30 V I C CNN
-F2 "" -100 -250 60 H I C CNN
-F3 "" 0 -150 60 H I C CNN
+DEF VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
 DRAW
-T 0 0 150 50 0 0 0 VDD Normal 1 C C
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X VDD 1 0 0 0 U 50 50 1 1 W N

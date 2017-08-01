@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-update=7/19/2017 7:07:37 PM
-=======
-update=07/18/17 18:17:58
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
-update=07/26/17 20:54:21
->>>>>>> refs/remotes/automote/touchButtonx3
+update=07/26/17 19:27:20
 version=1
 last_client=kicad
 [cvpcb]
@@ -45,10 +37,6 @@ ModuleOutlineThickness=0.15
 version=1
 LibDir=../../../kicad-library/library
 [eeschema/libraries]
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/automote/touchButtonx3
 LibName1=thingTouch-Buttons_v1P0-rescue
 LibName2=power
 LibName3=device
@@ -79,45 +67,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-<<<<<<< HEAD
-LibName31=I:/GitHub/kicad-libraries/library/touchpad_single
-LibName32=ttp224n-bsb
-=======
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=linear
-LibName6=regul
-LibName7=74xx
-LibName8=cmos4000
-LibName9=adc-dac
-LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=touchpad_single
-LibName31=ttp224n-bsb
-[general]
-version=1
->>>>>>> refs/remotes/automote/touchButtonx3
-=======
 LibName31=ttp224n-bsb
 LibName32=touchpad_single
->>>>>>> refs/remotes/automote/touchButtonx3
