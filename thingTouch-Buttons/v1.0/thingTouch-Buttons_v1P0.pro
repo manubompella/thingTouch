@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 update=7/19/2017 7:07:37 PM
 =======
 update=07/18/17 18:17:58
+>>>>>>> refs/remotes/automote/touchButtonx3
+=======
+update=07/26/17 20:54:21
 >>>>>>> refs/remotes/automote/touchButtonx3
 version=1
 last_client=kicad
@@ -39,9 +43,12 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=../../../kicad-libraries/library
+LibDir=../../../kicad-library/library
 [eeschema/libraries]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> refs/remotes/automote/touchButtonx3
 LibName1=thingTouch-Buttons_v1P0-rescue
 LibName2=power
 LibName3=device
@@ -72,6 +79,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+<<<<<<< HEAD
 LibName31=I:/GitHub/kicad-libraries/library/touchpad_single
 LibName32=ttp224n-bsb
 =======
@@ -108,4 +116,8 @@ LibName30=touchpad_single
 LibName31=ttp224n-bsb
 [general]
 version=1
+>>>>>>> refs/remotes/automote/touchButtonx3
+=======
+LibName31=ttp224n-bsb
+LibName32=touchpad_single
 >>>>>>> refs/remotes/automote/touchButtonx3
